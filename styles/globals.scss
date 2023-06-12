@@ -1,4 +1,7 @@
+@import "./variables.module.scss";
+
 html {
     font-size: 68.75%;
+    background-color: $primary-color;
   }
 
