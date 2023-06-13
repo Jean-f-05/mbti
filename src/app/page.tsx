@@ -1,8 +1,14 @@
+import Navbar from './components/Navbar'
 import styles from './page.module.scss'
 
 export default function Home() {
 
   return (
-    <h1 className={styles.header}>MBTI</h1>
+    <>
+      <Navbar title='MBTI TEST' />
+      <main className={styles.main}>
+        <h1>hello</h1>
+      </main>
+    </>
   )
 }
