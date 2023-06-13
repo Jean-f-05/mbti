@@ -1,7 +1,28 @@
 @import "./variables.module.scss";
 
-html {
-    font-size: 68.75%;
-    background-color: $primary-color;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
 
+html {
+  font-size: 62.5%;
+  
+};
+
+body {
+    background-color: $white;
+    overflow-x: hidden;
+};
+
+p, a{
+  font-size: 2rem;
+  line-height: 1rem;
+  cursor: pointer;
+  text-decoration: none
+};
+
+li {
+  list-style-type: none;
+}
