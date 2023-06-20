@@ -5,7 +5,7 @@ import blob from "../../../../public/blob5.png"
 
 const Hero = () => {
     return (
-        <div className={styles.hero__wrapper}>
+        <section className={styles.hero__wrapper}>
             <div className={styles.hero__container}>
                 <h1 className={styles.hero__header}>Discover your true Self</h1>
                 {/*      <span className={styles.hero__header}>&</span> */}
@@ -21,7 +21,7 @@ const Hero = () => {
             </div> */}
             <Image src={blob} alt='blob' className={styles.hero__icon} height={450} width={450}></Image>
 
-        </div>
+        </section>
     )
 }
 
