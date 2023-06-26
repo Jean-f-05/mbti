@@ -1,0 +1,9 @@
+@import "variables.module.scss";
+
+.intro{
+
+    &__wrapper{
+        height: 400px;
+        background-color: $fourth-color;
+    }
+}
